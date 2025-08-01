@@ -145,3 +145,12 @@ header{
 
     }
 }
+
+@media (min-width: 352px) and (max-width:900px) {
+    
+    #protectionContainer{
+        gap: 40px;
+        flex-direction: column;
+        text-align: center;
+    }
+}
