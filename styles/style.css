@@ -72,3 +72,39 @@ header{
          transition: all 200ms;
     }
 }
+
+@media (min-width:352px) and (max-width:480px) {
+
+    header{
+        height: 600px;
+    }
+    
+    #startContainer{
+        margin-top: 40px;
+        gap: 35px;
+        align-items: center;
+        text-align: center;
+        h2{
+            font-size: 40px;
+        }
+
+    }
+}
+
+@media (min-width:481px) and (max-width:768px) {
+
+    header{
+        height: 700px;
+    }
+    
+    #startContainer{
+        margin-top: 80px;
+        gap: 60px;
+        align-items: center;
+        text-align: center;
+        h2{
+            font-size: 50px;
+        }
+
+    }
+}
