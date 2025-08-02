@@ -263,6 +263,14 @@ header{
     }
 }
 
+#clientsContainer{
+    display: flex;
+    background-color: #eceeef;
+    padding: 50px 80px;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
 @media (min-width:352px) and (max-width:480px) {
 
     header{
