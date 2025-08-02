@@ -264,11 +264,15 @@ header{
 }
 
 #clientsContainer{
+    width: 100%;
+    padding: 30px 80px;
     display: flex;
+    justify-content: space-around;
     background-color: #eceeef;
-    padding: 50px 80px;
-    margin-top: 50px;
-    justify-content: space-between;
+
+    img{
+        max-width: 25%;
+    }
 }
 
 @media (min-width:352px) and (max-width:480px) {
@@ -300,6 +304,16 @@ header{
     #takeSection{
         margin-top: 0px;
         padding-top: 100px;
+    }
+
+    #clientsContainer{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 550px;
+        gap: 30px;
+        img{
+            max-width: 40%;
+        }
     }
 }
 
@@ -333,6 +347,16 @@ header{
         padding-top: 100px;
         margin-top: 0px;
     }
+    
+    #clientsContainer{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 550px;
+        gap: 30px;
+        img{
+            max-width: 40%;
+        }
+    }
 }
 
 @media (min-width: 352px) and (max-width:900px) {
@@ -345,6 +369,7 @@ header{
 
     #pricingContainer{
         flex-direction: column;
+        justify-content: start;
         align-items:center;
         gap: 50px;
     }
