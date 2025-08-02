@@ -70,7 +70,7 @@ header{
 
     button:hover{
         background-color: #02a974;
-         transition: all 200ms;
+        transition: all 200ms;
     }
 }
 
@@ -173,7 +173,95 @@ header{
     margin-top: -100px;
 }
 
+#sectionPricings{
+    width:100%;
+    height: 100%;
+    padding: 100px 0px;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    align-items: center;
+    background-color:#fefeff;
+    color: #182540;
+    text-align: center;
 
+    h2{
+        font-size: 30px;
+    }
+
+    h4{
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    #number{
+        font-size: 60px;
+        font-weight: 700;
+    }
+
+    p{
+        font-size:  small;
+        font-weight: 200;
+    }
+}
+
+#pricingContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    #price{
+        padding: 40px 80px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        button{
+            text-align: center;
+            width: 120px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            border-radius: 20px;
+            margin-top: 20px;
+            border: 2px solid #182540;
+            background-color: transparent;
+            font-weight: bold;
+            transition: all 200ms;
+        }
+
+        button:hover{
+            background-color: #182540;
+            transition: all 200ms;
+            color: #fefeff;
+        }
+
+    }
+    #pricePremium{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        color: #fefeff;
+        padding: 40px 80px;
+        background-color: #182540;
+        button{
+            text-align: center;
+            width: 120px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            border-radius: 20px;
+            margin-top: 20px;
+            border: none;            
+            font-weight: bold;
+            transition: all 200ms;
+            background-color: #00ffad;
+            color: #131d33;
+        }
+
+        button:hover{
+            background-color: #02a974;
+            transition: all 200ms;
+        }
+    }
+}
 
 @media (min-width:352px) and (max-width:480px) {
 
