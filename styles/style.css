@@ -356,6 +356,31 @@ form{
     }
 }
 
+footer{
+    display: flex;
+    padding: 30px 100px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #182540;
+
+    img{
+        border-radius: 50%;
+        width: 48px;
+        height: 48px;
+        transition: all 200ms;
+    }
+
+    img:hover{
+        scale: 105%;
+        transition: all 200ms;
+    }
+
+    #iconsContainer{
+        display: flex;
+        gap: 10px;
+    }
+}
+
 @media (min-width:352px) and (max-width:480px) {
 
     header{
