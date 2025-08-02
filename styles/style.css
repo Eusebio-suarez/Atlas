@@ -462,6 +462,24 @@ form{
         justify-content: center;
         align-items: center;
     }
+    #contactContainer{
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 80px;
+    }
+
+
+    .inputContet{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #textForm{
+        flex-direction: column;
+    }
+
 }
 
 @media (min-width: 1500px) {
@@ -471,6 +489,10 @@ form{
     }
 
     #pricingContainer{
+        justify-content: space-evenly;
+    }
+
+    #contactContainer{
         justify-content: space-evenly;
     }
 
