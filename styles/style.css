@@ -274,6 +274,88 @@ header{
     }
 }
 
+#contactContainer{
+    width: 100%;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url("../assets/images/contact-bk.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#contactUs{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    h2{
+        font-size: 40px;
+    }
+    #title{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    #textForm{
+        display: flex;
+        gap: 20px;
+    }
+    .inputContet{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    label{
+        color: #00feac;
+    }
+
+    input,textarea{
+        border: 1px solid #00feac;
+        background-color: transparent;
+        border-radius: 5px;
+        color: #fefeff;
+    }
+
+    input,textarea:focus{
+        border-color: #00feac;
+        outline: none;
+    }
+
+    input{
+        padding: 10px 50px;
+    }
+
+    textarea{
+        resize: none;
+        padding: 20px 10px;
+    }
+
+    button{
+        text-align: center;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        border-radius: 20px;
+        margin-top: 20px;
+        border: none;            
+        font-weight: bold;
+        transition: all 200ms;
+        background-color: #00ffad;
+        color: #131d33;
+        }
+
+    button:hover{
+        background-color: #02a974;
+        transition: all 200ms;
+    }
+}
+
 @media (min-width:352px) and (max-width:480px) {
 
     header{
